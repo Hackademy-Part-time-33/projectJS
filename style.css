@@ -131,9 +131,9 @@ header h1:hover{
 #btnPiante{
     position: relative;
     padding: 18px 45px;
-    background: linear-gradient(160deg, rgb(255,255,255, 0.7), transparent, rgb(255,255,255, 0.7));
+    background: linear-gradient(160deg, rgb(255,255,255, 0.7), rgba(0, 0, 0, 0.5), rgb(255,255,255, 0.7));
     text-decoration: none;
-    color: rgb(104, 73, 26);
+    color: rgb(235, 235, 235);
     border-radius: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5) inset;
     font-weight: bold;
@@ -169,9 +169,9 @@ header h1:hover{
 #btnFiori{
     position: relative;
     padding: 18px 45px;
-    background: linear-gradient(160deg, rgb(255,255,255, 0.7), transparent, rgb(255,255,255, 0.7));
+    background: linear-gradient(160deg, rgb(255,255,255, 0.7), rgba(0, 0, 0, 0.5), rgb(255,255,255, 0.7));
     text-decoration: none;
-    color: rgb(104, 73, 26);
+    color: rgb(235, 235, 235);
     border-radius: 10px;
     box-shadow: -3px 3px 3px rgba(0, 0, 0, 0.5) inset;
     font-weight: bold;
@@ -208,9 +208,9 @@ header h1:hover{
 #btnFunghi{
     position: relative;
     padding: 18px 45px;
-    background: linear-gradient(160deg, rgb(255,255,255, 0.7), transparent, rgb(255,255,255, 0.7));
+    background: linear-gradient(160deg, rgb(255,255,255, 0.7), rgba(0, 0, 0, 0.5), rgb(255,255,255, 0.7));
     text-decoration: none;
-    color: rgb(104, 73, 26);
+    color: rgb(235, 235, 235);
     border-radius: 10px;
     box-shadow: -3px -3px 3px rgba(0, 0, 0, 0.5) inset;
     font-weight: bold;

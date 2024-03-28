@@ -31,41 +31,41 @@ nava.forEach(link => {
     });
 
 
-
-articoli ={
-    "sezioni":[
-        {"title": "Piante", "descrizione":"Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum",},
-        {"title": "Fiori", "descrizione":"Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"},
-        {"title": "Funghi", "descrizione":"Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"},
-    ],
-    "addSezione": function(inputTitle1, inputDescription1){
-        this.sezioni.push({"title": inputTitle1, "descrizione": inputDescription1},);
-        inputTitle.value = ""
-        inputDescription.value = "";
-    },
-    "creaSezione": function(){
-        sectionContainer.innerHTML = "";
-        
-        this.sezioni.forEach( sezione => {
-            let creaSezione = document.createElement("section");
-            creaSezione.innerHTML = `
-            <h1>${sezione.title}</h1>
-            <p>${sezione.descrizione}</p>`;
-
-            sectionContainer.appendChild(creaSezione);
-            creaSezione.classList.add("creaSezione");
-        });
-
+    
+    articoli ={
+        "sezioni":[
+            {"title": "Piante", "descrizione":"Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum",},
+            {"title": "Fiori", "descrizione":"Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"},
+            {"title": "Funghi", "descrizione":"Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"},
+        ],
+        "addSezione": function(inputTitle1, inputDescription1){
+            this.sezioni.push({"title": inputTitle1, "descrizione": inputDescription1},);
+            inputTitle.value = ""
+            inputDescription.value = "";
+        },
+        "creaSezione": function(){
+            sectionContainer.innerHTML = "";
+            
+            this.sezioni.forEach( sezione => {
+                let creaSezione = document.createElement("section");
+                creaSezione.innerHTML = `
+                <h1>${sezione.title}</h1>
+                <p>${sezione.descrizione}</p>`;
+    
+                sectionContainer.appendChild(creaSezione);
+                creaSezione.classList.add("creaSezione");
+            });
+    
+        }
     }
-}
-
-articoli.creaSezione();
-
-btnCreaSezione.addEventListener("click", () =>{
-    articoli.addSezione(inputTitle.value, inputDescription.value);
+    
     articoli.creaSezione();
-
-})
+    
+    btnCreaSezione.addEventListener("click", () =>{
+        articoli.addSezione(inputTitle.value, inputDescription.value);
+        articoli.creaSezione();
+    
+    })
 
 // numeri incrementati
 function createInterval(number, element, timing){

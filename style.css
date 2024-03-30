@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     overflow-x: hidden;
 
@@ -27,7 +28,7 @@ nav {
     flex-direction: column;
     align-items: center;
     height: 100%;
-    width: 10.5rem;
+    width: 9.3rem;
     background-color: rgb(6, 133, 17);
     position: relative;
     left: 0rem;
@@ -69,7 +70,7 @@ ul li a{
     height: 50px;
     background-color: rgb(6, 133, 17);
     right: -25px;
-    top: 50%;
+    top: 10%;
     border-radius: 50%;
     color: rgb(235, 235, 235);
     display: flex;
@@ -304,3 +305,42 @@ header h1:hover{
     transform: scale(1.2);
     transition: 0.5s;
 }
+
+
+
+/*  SWIPER */
+
+.swiper {
+    width: 80%;
+    height: 400px;
+    background: #000;
+    overflow-x: hidden ;
+
+
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+    background-color: rgba(53, 53, 53, 0.3);
+    overflow-x: hidden ;
+
+
+  }
+
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    background: url("./Media/landscape4.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden ;
+
+  }

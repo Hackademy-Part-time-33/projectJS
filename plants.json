@@ -1,106 +1,186 @@
 {
     "pianteDescrizioni": [
-      {"pianta": "Rosa", "descrizione": "La rosa è una pianta del genere Rosa, appartenente alla famiglia delle Rosacee. È conosciuta principalmente per i suoi fiori dall'aspetto delicato e profumato."},
-      {"pianta": "Girasole", "descrizione": "Il girasole è una pianta appartenente alla famiglia delle Asteraceae. È caratterizzato da grandi fiori a forma di disco, che ruotano seguendo il movimento del sole."},
-      {"pianta": "Orchidea", "descrizione": "L'orchidea è una pianta appartenente alla famiglia delle Orchidaceae. È nota per la sua straordinaria varietà di colori e forme floreali."},
-      {"pianta": "Tulipano", "descrizione": "Il tulipano è una pianta bulbosa appartenente alla famiglia delle Liliaceae. È molto apprezzato per i suoi fiori a forma di campana dai colori vivaci."},
-      {"pianta": "Lavanda", "descrizione": "La lavanda è una pianta aromatica appartenente alla famiglia delle Lamiaceae. È nota per il suo profumo intenso e viene spesso utilizzata in profumeria e cosmesi."},
-      {"pianta": "Campanella", "descrizione": "La campanella è una pianta erbacea perenne appartenente alla famiglia delle Campanulaceae. È caratterizzata da fiori a forma di campana."},
-      {"pianta": "Margarita", "descrizione": "La margarita è una pianta erbacea appartenente alla famiglia delle Asteraceae. È famosa per i suoi fiori bianchi con il centro giallo."},
-      {"pianta": "Loto", "descrizione": "Il loto è una pianta acquatica appartenente alla famiglia delle Nelumbonaceae. È simbolo di purezza e rinascita nelle culture orientali."},
-      {"pianta": "Fuchsia", "descrizione": "Il fuchsia è un genere di piante arbustive appartenente alla famiglia delle Onagraceae. È apprezzato per i suoi fiori penduli dai colori brillanti."},
-      {"pianta": "Azalea", "descrizione": "L'azalea è un genere di piante appartenente alla famiglia delle Ericaceae. È caratterizzata da fiori dai colori vivaci e viene spesso coltivata come pianta ornamentale."}
+      {
+        "pianta": "Rosa", 
+        "descrizione": "La rosa è una pianta del genere Rosa, appartenente alla famiglia delle Rosacee. È conosciuta principalmente per i suoi fiori dall'aspetto delicato e profumato.", 
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Rosa_Ingrid_Bergman_Wien_2014.jpg"
+      },
+      {
+        "pianta": "Girasole", 
+        "descrizione": "Il girasole è una pianta appartenente alla famiglia delle Asteraceae. È caratterizzato da grandi fiori a forma di disco, che ruotano seguendo il movimento del sole.", 
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Drei_Sonnenblumen_im_Feld.JPG"
+      },
+      {
+        "pianta": "Orchidea", 
+        "descrizione": "L'orchidea è una pianta appartenente alla famiglia delle Orchidaceae. È nota per la sua straordinaria varietà di colori e forme floreali.", 
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Orchidea_sfumata.JPG/2560px-Orchidea_sfumata.JPG"
+      },
+      {
+        "pianta": "Tulipano", 
+        "descrizione": "Il tulipano è una pianta bulbosa appartenente alla famiglia delle Liliaceae. È molto apprezzato per i suoi fiori a forma di campana dai colori vivaci.", 
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Tulipani_dani.jpg"
+      },
+      {
+        "pianta": "Lavanda", 
+        "descrizione": "La lavanda è una pianta aromatica appartenente alla famiglia delle Lamiaceae. È nota per il suo profumo intenso e viene spesso utilizzata in profumeria e cosmesi.", 
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Lavandula_angustifolia090718.jpg"
+      },
+      {
+        "pianta": "Campanella", 
+        "descrizione": "La campanella è una pianta erbacea perenne appartenente alla famiglia delle Campanulaceae. È caratterizzata da fiori a forma di campana.", 
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Campanula_persicifolia_Tehumardi_Saaremaa.jpg"
+      },
+      {
+        "pianta": "Margarita", 
+        "descrizione": "La margarita è una pianta erbacea appartenente alla famiglia delle Asteraceae. È famosa per i suoi fiori bianchi con il centro giallo.", 
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/2/25/Leucanthemum-vulgare01.jpg"
+      },
+      {
+        "pianta": "Loto", 
+        "descrizione": "Il loto è una pianta acquatica appartenente alla famiglia delle Nelumbonaceae. È simbolo di purezza e rinascita nelle culture orientali.", 
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/3/31/Nelumbo_nucifera1.jpg"
+      },
+      {
+        "pianta": "Fuchsia", 
+        "descrizione": "Il fuchsia è un genere di piante arbustive appartenente alla famiglia delle Onagraceae. È apprezzato per i suoi fiori penduli dai colori brillanti.", 
+        "immagine": "https://kandsgreenhouse.com/wp-content/uploads/2020/04/fuchia1.jpg"
+      },
+      {
+        "pianta": "Azalea", 
+        "descrizione": "L'azalea è un genere di piante appartenente alla famiglia delle Ericaceae. È caratterizzata da fiori dai colori vivaci e viene spesso coltivata come pianta ornamentale.", 
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Fiori_di_Azalea.jpg"}
     ],
     "funghi": [
       {
         "nome": "Amanita muscaria",
-        "descrizione": "L'Amanita muscaria è un fungo velenoso dal cappello rosso punteggiato di bianco. È famoso per il suo aspetto caratteristico e le sue proprietà allucinogene."
+        "descrizione": "L'Amanita muscaria è un fungo velenoso dal cappello rosso punteggiato di bianco.",
+        "immagine": "./Media/Amanita-muscaria.JPG"
       },
       {
         "nome": "Boletus edulis",
-        "descrizione": "Il Boletus edulis, noto anche come porcino, è un fungo commestibile ampiamente apprezzato per il suo sapore e la sua consistenza carnosa."
+        "descrizione": "Il Boletus edulis, noto anche come porcino, è un fungo commestibile ampiamente apprezzato per il suo sapore e la sua consistenza carnosa.",
+        "immagine": "https://picturemushroom.com/wiki-image/1080/153773276781346829.jpeg"
       },
       {
         "nome": "Cantharellus cibarius",
-        "descrizione": "Il Cantharellus cibarius, chiamato comunemente finferlo, è un fungo con un cappello a forma di imbuto e colori che variano dal giallo all'arancione. È molto apprezzato in cucina per il suo sapore delicato."
+        "descrizione": "Il Cantharellus cibarius, chiamato comunemente finferlo, è un fungo con un cappello a forma di imbuto e colori che variano dal giallo all'arancione.",
+        "immagine": "https://i0.wp.com/parcolucretili.it/wp-content/uploads/2020/06/Cantharellus-cibarius-foto-di-Carletti-Giuseppe.jpg?ssl=1"
       },
       {
         "nome": "Agaricus bisporus",
-        "descrizione": "L'Agaricus bisporus, conosciuto anche come champignon, è uno dei funghi coltivati più diffusi al mondo. Ha un cappello bianco o marrone chiaro e un sapore delicato."
+        "descrizione": "L'Agaricus bisporus, conosciuto anche come champignon, è uno dei funghi coltivati più diffusi al mondo. Ha un cappello bianco o marrone chiaro e un sapore delicato.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Agaricus_bisporus_G4.JPG/2560px-Agaricus_bisporus_G4.JPG"
+
       },
       {
         "nome": "Coprinus comatus",
-        "descrizione": "Il Coprinus comatus, noto anche come mazza di tamburo, è un fungo commestibile con un cappello a forma di campana e un corpo coperto da piccole squame. È apprezzato per il suo sapore delicato."
+        "descrizione": "Il Coprinus comatus, noto anche come mazza di tamburo, è un fungo commestibile con un cappello a forma di campana e un corpo coperto da piccole squame.",
+        "immagine": "https://www.lerboristeria.com/imgs/erbario/foto/coprinus_comatus.jpg"
+
       },
       {
         "nome": "Laetiporus sulphureus",
-        "descrizione": "Il Laetiporus sulphureus, conosciuto anche come fungo porcino del miele, è un fungo commestibile caratterizzato da grandi cappelli di colore arancione intenso o giallo. Cresce principalmente su alberi morti o moribondi."
+        "descrizione": "Il Laetiporus sulphureus, conosciuto anche come fungo porcino del miele, è un fungo commestibile caratterizzato da grandi cappelli di colore arancione intenso o giallo.",
+        "immagine": "https://funghimagazine.it/wp-content/uploads/2023/02/Laetiporus-sulphureus-themushroomworks-W.webp"
+
       },
       {
         "nome": "Hericium erinaceus",
-        "descrizione": "Il Hericium erinaceus, noto anche come fungo leone o spugna d'oro, è un fungo commestibile con un aspetto simile a una palla di neve. È apprezzato per il suo sapore delicato e la sua consistenza."
+        "descrizione": "Il Hericium erinaceus, noto anche come fungo leone o spugna d'oro, è un fungo commestibile con un aspetto simile a una palla di neve.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Igelstachelbart_Nov_06.jpg/800px-Igelstachelbart_Nov_06.jpg"
+
       },
       {
         "nome": "Hydnum repandum",
-        "descrizione": "L'Hydnum repandum, noto anche come pied de mouton, è un fungo commestibile con un cappello ricoperto di spine anziché lamelle. È apprezzato per il suo sapore delicato e la sua consistenza."
+        "descrizione": "L'Hydnum repandum, noto anche come pied de mouton, è un fungo commestibile con un cappello ricoperto di spine anziché lamelle.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/4/44/HydnumRepandum.JPG"
+
       },
       {
         "nome": "Pholiota nameko",
-        "descrizione": "Il Pholiota nameko è un fungo commestibile originario del Giappone, noto per il suo sapore distintivo e le sue proprietà gelatinose. Viene spesso utilizzato nella cucina giapponese."
+        "descrizione": "Il Pholiota nameko è un fungo commestibile originario del Giappone, noto per il suo sapore distintivo e le sue proprietà gelatinose. Viene spesso utilizzato nella cucina giapponese.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Nameko_by_frankenstoen.jpg"
+
       },
       {
         "nome": "Trametes versicolor",
-        "descrizione": "Il Trametes versicolor, noto anche come polyporus versicolor o fungo dei colori, è un fungo comunemente trovato su tronchi d'albero morti. Ha un cappello a forma di ventaglio con colori che variano tra diverse tonalità di marrone, beige, grigio e verde."
+        "descrizione": "Il Trametes versicolor, noto anche come polyporus versicolor o fungo dei colori, è un fungo comunemente trovato su tronchi d'albero morti.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Velvet_Revolver.jpg"
+
       },
       {
         "nome": "Lentinula edodes",
-        "descrizione": "Il Lentinula edodes, noto anche come shiitake, è un fungo commestibile originario dell'Asia orientale. È apprezzato per il suo sapore ricco e il suo aroma distintivo."
+        "descrizione": "Il Lentinula edodes, noto anche come shiitake, è un fungo commestibile originario dell'Asia orientale. È apprezzato per il suo sapore ricco e il suo aroma distintivo.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Shiitake_mushroom.jpg"
+
       },
       {
         "nome": "Pleurotus ostreatus",
-        "descrizione": "Il Pleurotus ostreatus, noto anche come fungo orecchia di giuda, è un fungo commestibile con un cappello a forma di orecchio che cresce su legno morto o in decomposizione. È apprezzato per il suo sapore delicato."
+        "descrizione": "Il Pleurotus ostreatus, noto anche come fungo orecchia di giuda, è un fungo commestibile con un cappello a forma di orecchio che cresce su legno morto o in decomposizione.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/5/50/Pleurotus_ostreatus_1.JPG"
+
       }
     ],
     "fiori": [
       {
         "nome": "Rosa",
-        "descrizione": "La rosa è un fiore molto apprezzato per la sua bellezza e il suo profumo. È simbolo di amore, passione e romanticismo."
+        "descrizione": "La rosa è un fiore molto apprezzato per la sua bellezza e il suo profumo. È simbolo di amore, passione e romanticismo.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Rosa_Ingrid_Bergman_Wien_2014.jpg"
+
       },
       {
         "nome": "Girasole",
-        "descrizione": "Il girasole è un fiore luminoso e allegro che segue il movimento del sole durante la giornata. Simboleggia felicità, vitalità e speranza."
+        "descrizione": "Il girasole è un fiore luminoso e allegro che segue il movimento del sole durante la giornata. Simboleggia felicità, vitalità e speranza.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Drei_Sonnenblumen_im_Feld.JPG"
+
       },
       {
         "nome": "Tulipano",
-        "descrizione": "Il tulipano è un fiore elegante e colorato, simbolo di amore perfetto e bellezza. Viene spesso associato ai Paesi Bassi."
+        "descrizione": "Il tulipano è un fiore elegante e colorato, simbolo di amore perfetto e bellezza. Viene spesso associato ai Paesi Bassi.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Tulipani_dani.jpg"
+
       },
       {
         "nome": "Lavanda",
-        "descrizione": "La lavanda è un fiore dal profumo delicato e rilassante, noto per le sue proprietà aromatiche e terapeutiche. È spesso utilizzato in profumeria e in erboristeria."
+        "descrizione": "La lavanda è un fiore dal profumo delicato e rilassante, noto per le sue proprietà aromatiche e terapeutiche. È spesso utilizzato in profumeria e in erboristeria.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Lavandula_angustifolia090718.jpg"
+
       },
       {
         "nome": "Margherita",
-        "descrizione": "La margherita è un fiore semplice e delicato, simbolo di purezza e innocenza. È spesso associata a sentimenti di amore e amicizia."
+        "descrizione": "La margherita è un fiore semplice e delicato, simbolo di purezza e innocenza. È spesso associata a sentimenti di amore e amicizia.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Fiore_margherita.jpg/2560px-Fiore_margherita.jpg"
+
       },
       {
         "nome": "Orchidea",
-        "descrizione": "L'orchidea è un fiore esotico e elegante, simbolo di bellezza, fascino e raffinatezza. Esistono numerose varietà di orchidee, ognuna con caratteristiche uniche."
+        "descrizione": "L'orchidea è un fiore esotico e elegante, simbolo di bellezza, fascino e raffinatezza. Esistono numerose varietà di orchidee, ognuna con caratteristiche uniche.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Orchidea_sfumata.JPG/2560px-Orchidea_sfumata.JPG"
+
       },
       {
         "nome": "Fiore di ciliegio",
-        "descrizione": "Il fiore di ciliegio è un fiore delicato e effimero che sboccia all'inizio della primavera, annunciando il risveglio della natura dopo l'inverno. È molto apprezzato in Giappone, dove simboleggia la bellezza e la fragilità della vita."
+        "descrizione": "Il fiore di ciliegio è un fiore delicato e effimero che sboccia all'inizio della primavera, annunciando il risveglio della natura dopo l'inverno. In Giappone, simboleggia bellezza e fragilità della vita.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Ume_blossom_2005.03.14.jpg/1200px-Ume_blossom_2005.03.14.jpg"
+
       },
       {
         "nome": "Iris",
-        "descrizione": "L'iris è un fiore elegante e raffinato, con petali distintivi e colori vibranti. Simboleggia la saggezza, la fiducia e la speranza."
+        "descrizione": "L'iris è un fiore elegante e raffinato, con petali distintivi e colori vibranti. Simboleggia la saggezza, la fiducia e la speranza.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/7/76/Purple_iris_flower.JPG"
+
       },
       {
         "nome": "Peonia",
-        "descrizione": "La peonia è un fiore lussureggiante e profumato, simbolo di ricchezza, prosperità e amore romantico. È ampiamente apprezzata per la sua bellezza e la sua longevità."
+        "descrizione": "La peonia è un fiore lussureggiante e profumato, simbolo di ricchezza, prosperità e amore romantico. È ampiamente apprezzata per la sua bellezza e la sua longevità.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Paeonia_lacti.JPG/1200px-Paeonia_lacti.JPG"
+
       },
       {
         "nome": "Fiori di campo",
-        "descrizione": "I fiori di campo sono una varietà di fiori selvatici che crescono spontaneamente nei prati e lungo i sentieri. Sono caratterizzati dalla loro semplicità e varietà di colori, e sono simbolo di libertà e natura selvaggia."
+        "descrizione": "I fiori di campo sono fiori selvatici che crescono nei prati e lungo i sentieri. Sono caratterizzati dalla loro semplicità e varietà di colori, simbolo di libertà e natura selvaggia.",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Fiore_di_campo_rosa_2.JPG/1200px-Fiore_di_campo_rosa_2.JPG"
+
       }
     ]
   }

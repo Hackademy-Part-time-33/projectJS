@@ -18,6 +18,10 @@ h1{
     font-family: "Lora", serif;
 }
 
+p{
+    font-size: 24px;
+}
+
 a, button{
     font-family: "Merriweather", serif;
 }
@@ -267,10 +271,16 @@ header h1:hover{
     padding: 15px;
     color: rgb(235, 235, 235);
     width: 20rem;
-    height: 300px;
+    height: 600px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
     border-radius: 20px;
     text-align: center;
+}
+
+.creaSezione img{
+    width: 18rem;
+    height: 200px;
+    border-radius: 20px;
 }
 
 /* container input style */

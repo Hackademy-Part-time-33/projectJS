@@ -16,6 +16,7 @@
         let descrizione = document.createElement('p');
  */
         articolo.innerHTML = `
+        <img src="${fungo.immagine}">
         <h2>${fungo.nome}</h2>
         <p>${fungo.descrizione}</p>`;
 

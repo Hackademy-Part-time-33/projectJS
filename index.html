@@ -39,54 +39,51 @@
         </div>
     </nav>
 
+
+    <!-- Header -->
     <header class="main-container container-fluid p-0">
         <div class="headered row d-flex justify-content-center align-itmes-center">
             <div class="col-12 d-flex justify-content-center align-items-center">
                 <h1>Scopri tutte le piante</h1>
             </div>
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-                <a id="btnPiante" href="Piante">Piante</a>
+                <a id="btnPiante" href="./piante.html">Piante</a>
             </div>
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-                <a id="btnFiori" href="Fiori">Fiori</a>
+                <a id="btnFiori" href="./fiori.html">Fiori</a>
             </div>
             <div class="col-12 d-flex justify-content-center align-items-center">
-                <a id="btnFunghi" href="funghi">Funghi</a>
+                <a id="btnFunghi" href="./funghi.html">Funghi</a>
             </div>
         </div>
     </header>
 
-
+    <!-- Story -->
     <div class="container my-5">
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-                <h1>Crea la tua sezione</h1>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row justify-content-center container-custom">
-            <div class="col-12 col-md-6 d-flex justify-content-center  align-items-center">
-                <label for="inputTitle" class="me-3 fs-2">Titolo</label>
-                <input type="text" id="inputTitle" placeholder="Titolo">
-            </div>
-            <div class="col-12 col-md-6 d-flex justify-content-center  align-items-center">
-                <label for="inputDescription" class="me-3 fs-2">Descrizione</label>
-                <input type="text" id="inputDescription" placeholder="Piante">
-            </div>
-            <div class="col-12 d-flex justify-content-center my-5  align-items-center">
-                <button id="btnCreaSezione" type="button">Crea Sezione</button>
+        <div class="row justify-content-center">
+            <div class="col-12 d-flex justify-content-center flex-column align-items-center">
+                <h1>La nostra storia</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sed dolore iure,
+                     quo commodi esse voluptate doloremque minima eveniet praesentium, 
+                     distinctio quia quis sint perferendis voluptates modi error ipsa. Laudantium.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sed dolore iure,
+                     quo commodi esse voluptate doloremque minima eveniet praesentium, 
+                     distinctio quia quis sint perferendis voluptates modi error ipsa. Laudantium.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sed dolore iure,
+                     quo commodi esse voluptate doloremque minima eveniet praesentium, 
+                     distinctio quia quis sint perferendis voluptates modi error ipsa. Laudantium.
+
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sed dolore iure,
+                     quo commodi esse voluptate doloremque minima eveniet praesentium, 
+                     distinctio quia quis sint perferendis voluptates modi error ipsa. Laudantium.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sed dolore iure,
+                     quo commodi esse voluptate doloremque minima eveniet praesentium, 
+                     distinctio quia quis sint perferendis voluptates modi error ipsa. Laudantium.</p>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div id="section-container" class="col-12 d-flex justify-content-center flex-wrap">
-            </div>
-        </div>
-    </div>
-
+    <!-- Sezione Counter -->
     <div class="container">
         <div class="row">
             <div class="col-12 text-center my-5">
@@ -99,18 +96,19 @@
                 <h1><span id="firstNumber">0</span> Specie di piante</h1>
                 <h1><span id="SecondNumber">0</span> Specie di fiori</h1>
                 <h1><span id="thirdNumber">0</span> Specie di funghi</h1>
-
+                
             </div>
         </div>
     </div>
-
+    
+    <!-- Sezione Swiper -->
     <div class="container">
         <div class="row">
             <div class="col-12 d-flex flex-column justify-content-center align-items-center text-start mt-5">
                 <h1>Dicono di noi</h1>
-
-
-
+                
+                
+                
                 <div class="swiper mb-5">
                     <div class="parallax-bg" data-swiper-parallax="-23%"></div>
                     <div class="swiper-wrapper">
@@ -120,7 +118,7 @@
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                                     dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
                                     laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-
+                                    
                                 </p>
                             </div>
                         </div>
@@ -148,17 +146,49 @@
         </div>
     </div>
 
+    <!-- Sezione per creare la propria sezione -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <h1>Crea la tua sezione</h1>
+            </div>
+        </div>
+    </div>
 
+    <div class="container">
+        <div class="row justify-content-center container-custom">
+            <div class="col-12 col-md-6 d-flex justify-content-center  align-items-center">
+                <label for="inputTitle" class="me-3 fs-2">Titolo</label>
+                <input type="text" id="inputTitle" placeholder="Titolo">
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center  align-items-center">
+                <label for="inputDescription" class="me-3 fs-2">Descrizione</label>
+                <input type="text" id="inputDescription" placeholder="Piante">
+            </div>
+            <div class="col-12 d-flex justify-content-center my-5  align-items-center">
+                <button id="btnCreaSezione" type="button">Crea Sezione</button>
+            </div>
+        </div>
+    </div>
 
+    <div class="container">
+        <div class="row">
+            <div id="section-container" class="col-12 d-flex justify-content-center flex-wrap">
+            </div>
+        </div>
+    </div>
+    
+    
 
-
-
+    
+    
+    
     <!-- =================================================== -->
     <!-- FONTAWESOME -->
     <script src="https://kit.fontawesome.com/b5285a1dd0.js" crossorigin="anonymous"></script> <!-- MAIN JS -->
     <!-- BS5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <!-- SWIPER JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

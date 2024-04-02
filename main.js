@@ -53,7 +53,7 @@ nava.forEach(link => {
                 <p>${sezione.descrizione}</p>`;
     
                 sectionContainer.appendChild(creaSezione);
-                creaSezione.classList.add("creaSezione");
+                creaSezione.classList.add("creaSezione0");
             });
     
         }

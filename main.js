@@ -39,24 +39,41 @@ nava.forEach(link => {
             {"title": "Funghi", "descrizione":"Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"},
         ],
         "addSezione": function(inputTitle1, inputDescription1){
-            this.sezioni.push({"title": inputTitle1, "descrizione": inputDescription1},);
-            inputTitle.value = ""
-            inputDescription.value = "";
+            if (inputTitle.value !== "" && inputDescription.value !== "" ){
+                this.sezioni.push({"title": inputTitle1, "descrizione": inputDescription1},);
+                inputTitle.value = ""
+                inputDescription.value = "";
+            } else { alert("Devi compilare tutti i campi");}
         },
         "creaSezione": function(){
             sectionContainer.innerHTML = "";
             
-            this.sezioni.forEach( sezione => {
+            this.sezioni.forEach( (sezione, index) => {
                 let creaSezione = document.createElement("section");
                 creaSezione.innerHTML = `
-                <h1>${sezione.title}</h1>
-                <p>${sezione.descrizione}</p>`;
+                    <a class ="rimuoviSezione" data-index="${index}">X</a>
+                    <h1>${sezione.title}</h1>
+                    <p>${sezione.descrizione}</p>`;
     
                 sectionContainer.appendChild(creaSezione);
-                creaSezione.classList.add("creaSezione0");
+                creaSezione.classList.add("creaSezione0", "position-relative");
             });
-    
-        }
+
+            let removeButtons = document.querySelectorAll('.rimuoviSezione');
+            removeButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    let index = parseInt(this.dataset.index); // Ottieni l'indice della sezione da rimuovere (tramite dataset, posso accedere al valore dell'attributo data-index. Si utilizza anche parseInt per convertire in numero il valore di index, se no non viene letto dal metodo dell'array)
+                    articoli.rimuoviSezione(index); // Chiama il metodo rimuoviSezione passando l'indice
+                });
+            });
+        },
+        // Creare un bottone per ogni sezione creata per poterlo cancellare eventualmente******
+        "rimuoviSezione": function(index){
+            this.sezioni.splice(index, 1);
+            this.creaSezione();
+            
+        },
+        
     }
     
     articoli.creaSezione();
@@ -128,3 +145,37 @@ const swiper = new Swiper('.swiper', {
     //   el: '.swiper-scrollbar',
     // },
   });
+
+
+
+//   ------------------------------------------
+
+
+// DARK MODE
+
+let btnDarkMode = document.querySelector("#btnDarkMode");
+
+let isClicked = false;
+localStorage.getItem("mode");
+
+btnDarkMode.addEventListener("click", () => {
+    if(isClicked){
+        document.body.classList.add("light-mode");
+        document.body.classList.remove("dark-mode");
+        btnDarkMode.innerHTML =`
+        <i class="fa-solid fa-sun"></i>
+        `
+        isClicked =false;
+        localStorage.setItem("mode", "dark");
+    } else {
+        document.body.classList.add("dark-mode");
+        document.body.classList.remove("light-mode");
+        btnDarkMode.innerHTML =`
+        <i class="fa-solid fa-moon"></i>
+        `
+        isClicked =true;
+        localStorage.setItem("mode", "light");
+
+    }
+    
+});

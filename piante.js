@@ -5,7 +5,7 @@
     .then(response => response.json())
     .then(data => {
       // Elaborazione dei dati JSON
-      const piante = data.pianteDescrizioni;
+      const piante = data.piante;
   
       // Creazione degli elementi HTML e inserimento nel documento
       let container = document.querySelector('.container');

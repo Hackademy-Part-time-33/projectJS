@@ -1,5 +1,5 @@
 {
-    "pianteDescrizioni": [
+    "piante": [
       {
         "pianta": "Rosa", 
         "descrizione": "La rosa è una pianta del genere Rosa, appartenente alla famiglia delle Rosacee. È conosciuta principalmente per i suoi fiori dall'aspetto delicato e profumato.", 
@@ -181,6 +181,128 @@
         "descrizione": "I fiori di campo sono fiori selvatici che crescono nei prati e lungo i sentieri. Sono caratterizzati dalla loro semplicità e varietà di colori, simbolo di libertà e natura selvaggia.",
         "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Fiore_di_campo_rosa_2.JPG/1200px-Fiore_di_campo_rosa_2.JPG"
 
+      }
+    ],
+    "shop": [
+      {
+        "category": "piante",
+        "name": "Orchidea",
+        "prezzo": 15.99,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Orchidea_sfumata.JPG/2560px-Orchidea_sfumata.JPG"
+      },
+      {
+        "category": "fiori",
+        "name": "Rosa",
+        "prezzo": 12.50,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Rosa_Ingrid_Bergman_Wien_2014.jpg"
+      },
+      {
+        "category": "funghi",
+        "name": "Porcini",
+        "prezzo": 8.75,
+        "immagine": "https://picturemushroom.com/wiki-image/1080/153773276781346829.jpeg"
+      },
+      {
+        "category": "attrezzi",
+        "name": "Forbici da potatura",
+        "prezzo": 20.00,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Rebschere.jpg/800px-Rebschere.jpg"
+      },
+      {
+        "category": "piante",
+        "name": "Lavanda",
+        "prezzo": 10.25,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Lavandula_angustifolia090718.jpg"
+      },
+      {
+        "category": "fiori",
+        "name": "Girasole",
+        "prezzo": 9.99,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Drei_Sonnenblumen_im_Feld.JPG"
+      },
+      {
+        "category": "funghi",
+        "name": "Champignon",
+        "prezzo": 6.50,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Agaricus_bisporus_G4.JPG/220px-Agaricus_bisporus_G4.JPG"
+      },
+      {
+        "category": "attrezzi",
+        "name": "Rastrello",
+        "prezzo": 14.75,
+        "immagine": "https://storgom.ua/cache/i/blog/prev_grabli.768x.jpg"
+      },
+      {
+        "category": "piante",
+        "name": "Ficus",
+        "prezzo": 18.50,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ficus_auriculata.jpg"
+      },
+      {
+        "category": "fiori",
+        "name": "Tulipano",
+        "prezzo": 7.80,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Tulipani_dani.jpg"
+      },
+      {
+        "category": "funghi",
+        "name": "Porcini",
+        "prezzo": 12.99,
+        "immagine": "https://picturemushroom.com/wiki-image/1080/153773276781346829.jpeg"
+      },
+      {
+        "category": "attrezzi",
+        "name": "Vanga",
+        "prezzo": 22.25,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Shovels.svg/800px-Shovels.svg.png"
+      },
+      {
+        "category": "piante",
+        "name": "Succulente",
+        "prezzo": 13.75,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Agave_americana.jpg"
+      },
+      {
+        "category": "fiori",
+        "name": "Orchidea",
+        "prezzo": 16.80,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Orchidea_sfumata.JPG/2560px-Orchidea_sfumata.JPG"
+      },
+      {
+        "category": "funghi",
+        "name": "Chanterelle",
+        "prezzo": 9.25,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Chanterelle_Cantharellus_cibarius.jpg/1023px-Chanterelle_Cantharellus_cibarius.jpg"
+      },
+      {
+        "category": "attrezzi",
+        "name": "Tagliaerba",
+        "prezzo": 30.00,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Tondeuse.png"
+      },
+      {
+        "category": "piante",
+        "name": "Bonsai",
+        "prezzo": 24.50,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/9/94/Bonsai%2C_Kenshin_Toge.jpg"
+      },
+      {
+        "category": "fiori",
+        "name": "Margherita",
+        "prezzo": 6.25,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Fiore_margherita.jpg/2560px-Fiore_margherita.jpg"
+      },
+      {
+        "category": "funghi",
+        "name": "Shiitake",
+        "prezzo": 11.50,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/6/64/Shiitakegrowing.jpg"
+      },
+      {
+        "category": "attrezzi",
+        "name": "Forbici da potatura",
+        "prezzo": 18.75,
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Rebschere.jpg/800px-Rebschere.jpg"
       }
     ]
   }

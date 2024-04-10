@@ -16,9 +16,13 @@ fetch('./plants.json')
               let descrizione = document.createElement('p');
        */
       articolo.innerHTML = `
-        <img src="${fiore.immagine}">
-        <h2>${fiore.nome}</h2>
-        <p>${fiore.descrizione}</p>`;
+      <div>
+      <img src="${fiore.immagine}">
+      <h2 class="mt-2">${fiore.nome}</h2>
+    </div>
+      <div class ="mt-4">
+      <p>${fiore.descrizione}</p>
+      </div>`;
 
       container.appendChild(articolo);
       articolo.classList.add("creaSezione");

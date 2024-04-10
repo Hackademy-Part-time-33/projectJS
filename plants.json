@@ -2,37 +2,37 @@
     "piante": [
       {
         "pianta": "Quercia", 
-        "descrizione": "La rosa è una pianta del genere Rosa, appartenente alla famiglia delle Rosacee. È conosciuta principalmente per i suoi fiori dall'aspetto delicato e profumato.", 
+        "descrizione": "Le querce sono alberi o arbusti, decidui o sempreverdi, noti per la loro longevità e resistenza.", 
         "immagine": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Keeler_Oak_Tree_-_distance_photo%2C_May_2013.jpg"
       },
       {
         "pianta": "Betulla", 
-        "descrizione": "Il girasole è una pianta appartenente alla famiglia delle Asteraceae. È caratterizzato da grandi fiori a forma di disco, che ruotano seguendo il movimento del sole.", 
+        "descrizione": "Cresce spontanea nelle radure o ai margini dei boschi di faggio e di castagno, ma per il suo aspetto leggiadro viene anche coltivata in parchi e giardini.", 
         "immagine": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Betula_Pendula_at_Stockholm_University_2005-07-01.jpg"
       },
       {
         "pianta": "Pino", 
-        "descrizione": "L'orchidea è una pianta appartenente alla famiglia delle Orchidaceae. È nota per la sua straordinaria varietà di colori e forme floreali.", 
+        "descrizione": "alto fino a 15-20 metri, ramificato in alto con chioma espansa verde intenso ad ampio ombrello.", 
         "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Pinus_strobus_trees.jpg/220px-Pinus_strobus_trees.jpg"
       },
       {
         "pianta": "Ciliegio", 
-        "descrizione": "Il tulipano è una pianta bulbosa appartenente alla famiglia delle Liliaceae. È molto apprezzato per i suoi fiori a forma di campana dai colori vivaci.", 
+        "descrizione": "Portamento arboreo con chioma ovato-piramidale e rami eretti; raggiunge i 20 metri di altezza.", 
         "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/CILIEGIO_SECOLARE_A_BESANA_IN_BRIANZA.JPG/1024px-CILIEGIO_SECOLARE_A_BESANA_IN_BRIANZA.JPG"
       },
       {
         "pianta": "Oleandro", 
-        "descrizione": "La lavanda è una pianta aromatica appartenente alla famiglia delle Lamiaceae. È nota per il suo profumo intenso e viene spesso utilizzata in profumeria e cosmesi.", 
+        "descrizione": "L'Oleandro appartiene alla famiglia della Apocynaceae. Ha foglie lanceolate, da verde intenso a verde grigiastro, lunghe da 6 a 20 cm.", 
         "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Nerium_oleander.jpg/1200px-Nerium_oleander.jpg"
       },
       {
         "pianta": "Abete", 
-        "descrizione": "La campanella è una pianta erbacea perenne appartenente alla famiglia delle Campanulaceae. È caratterizzata da fiori a forma di campana.", 
+        "descrizione": "l'abete ha un colore chiaro tendente al bianco con poche venature visibili e questo lo rende perfetto per la creazione di mobili molto basic e minimal", 
         "immagine": "https://upload.wikimedia.org/wikipedia/commons/8/82/Abies_homolepis_cones.jpg"
       },
       {
         "pianta": "Salice Piangente", 
-        "descrizione": "La margarita è una pianta erbacea appartenente alla famiglia delle Asteraceae. È famosa per i suoi fiori bianchi con il centro giallo.", 
+        "descrizione": "L'albero assume così un portamento particolare, riverso in basso.", 
         "immagine": "https://usercontent.one/wp/antropocene.it/wp-content/uploads/2018/12/Salix_babylonica-800x445.jpg?media=1692339420"
       },
       {
@@ -42,7 +42,7 @@
       },
       {
         "pianta": "Pesco", 
-        "descrizione": "Il fuchsia è un genere di piante arbustive appartenente alla famiglia delle Onagraceae. È apprezzato per i suoi fiori penduli dai colori brillanti.", 
+        "descrizione": "La pianta è di altezza variabile; quando lasciata crescere in forma libera, raggiunge i 4-6 m", 
         "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Pesco.jpg/640px-Pesco.jpg"
       },
       {

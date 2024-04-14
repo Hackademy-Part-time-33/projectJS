@@ -89,6 +89,13 @@ nav {
 
 }
 
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 #logo{
     width: 11rem;
     height: 10rem;

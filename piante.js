@@ -5,7 +5,7 @@ fetch('./plants.json')
   .then(response => response.json())
   .then(data => {
     // Elaborazione dei dati JSON
-    const piante = data.piante;
+    let piante = data.piante;
 
     // Creazione degli elementi HTML e inserimento nel documento
     let container = document.querySelector('.container');
@@ -15,13 +15,17 @@ fetch('./plants.json')
       /*         let titolo = document.createElement('h2');
               let descrizione = document.createElement('p');
        */
+      let descrizioneCorta = pianta.descrizione.substring(0,150);
+      if (pianta.descrizione.length > 150){
+        descrizioneCorta += "...";
+      }
       articolo.innerHTML = `
       <div>
         <img src="${pianta.immagine}">
         <h2 class="mt-2">${pianta.pianta}</h2>
       </div>
         <div class ="mt-4">
-        <p>${pianta.descrizione}</p>
+        <p>${descrizioneCorta}</p>
         </div>`;
 
       container.appendChild(articolo);
@@ -34,7 +38,7 @@ fetch('./plants.json')
         articolo.appendChild(descrizione);
         container.appendChild(articolo);
 
- */        console.log(data);
+       console.log(data); */ 
     });
 
     // DARK MODE

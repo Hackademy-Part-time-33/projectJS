@@ -15,13 +15,17 @@ fetch('./plants.json')
       /*         let titolo = document.createElement('h2');
               let descrizione = document.createElement('p');
        */
+      let descrizioneCorta = fiore.descrizione.substring(0,140);
+      if (fiore.descrizione.length > 140){
+        descrizioneCorta += "...";
+      }
       articolo.innerHTML = `
       <div>
       <img src="${fiore.immagine}">
       <h2 class="mt-2">${fiore.nome}</h2>
     </div>
       <div class ="mt-4">
-      <p>${fiore.descrizione}</p>
+      <p>${descrizioneCorta}</p>
       </div>`;
 
       container.appendChild(articolo);
@@ -34,7 +38,7 @@ fetch('./plants.json')
         articolo.appendChild(descrizione);
         container.appendChild(articolo);
 
- */        console.log(data);
+       console.log(data); */ 
     });
     // DARK MODE
 

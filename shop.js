@@ -17,7 +17,7 @@ fetch('./plants.json')
                     uniqueCategory.push(category);
                 }
             });
-            console.log(uniqueCategory);
+            // console.log(uniqueCategory);
 
 
             uniqueCategory.forEach((category) => {

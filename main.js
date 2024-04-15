@@ -155,34 +155,31 @@ const swiper = new Swiper('.swiper', {
 
 let btnDarkMode = document.querySelector("#btnDarkMode");
 
+// Recupera il valore di 'mode' da localStorage, se presente
 let mode = localStorage.getItem("mode");
 
-let isClicked = false;
+// Inizializza 'isClicked' in base al valore recuperato
+let isClicked = mode === "dark";
 
-if (mode === "dark") {
+if (isClicked) {
     document.body.classList.add("dark-mode");
-    isClicked = true;
 } else {
     document.body.classList.remove("dark-mode");
 }
+
 btnDarkMode.addEventListener("click", () => {
+    // dark mode e light mode
     if (isClicked) {
         document.body.classList.add("light-mode");
         document.body.classList.remove("dark-mode");
-        btnDarkMode.innerHTML = `
-        <i class="fa-solid fa-sun"></i>
-        `
-        isClicked = false;
-        localStorage.setItem("mode", "dark");
+        btnDarkMode.innerHTML = `<i class="fa-solid fa-sun"></i>`;
+        localStorage.setItem("mode", "light");
     } else {
         document.body.classList.add("dark-mode");
         document.body.classList.remove("light-mode");
-        btnDarkMode.innerHTML = `
-        <i class="fa-solid fa-moon"></i>
-        `
-        isClicked = true;
-        localStorage.setItem("mode", "light");
-
+        btnDarkMode.innerHTML = `<i class="fa-solid fa-moon"></i>`;
+        localStorage.setItem("mode", "dark");
     }
-
+    // Inverti lo stato di 'isClicked'
+    isClicked = !isClicked;
 });
